@@ -1,0 +1,1373 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Rockwell';
+    padding-top: 200px;
+   
+}
+
+
+
+.met_escritorio{
+    display: none;
+}
+
+
+
+/* Inicio de Cabecera */
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 170px;
+    top: 0;
+    z-index: 10;
+    background-color: #1A222A;
+   
+}
+
+.rrss_link{
+    text-decoration: none;
+}
+
+.linke_perso{
+    text-decoration: none;
+}
+
+.logo_puente{
+    height: 100px;
+    display:block;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    text-decoration: none;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.menu_item_link{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 10px;;
+    
+}
+
+/* Fin de Cabecera */
+
+/* Inicio de Banner */
+
+.banner{
+    width: 100%;
+    height: 300px;
+    margin-top: -30px;
+    margin-bottom: -170px;
+    position: relative;
+    background-image: url("/img/Conecta\ con\ los\ mejores\ profesionales.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.servicio_enlace{
+    position: absolute;
+    bottom: 150px;
+    
+}
+
+.banner > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(195, 195, 195, .5);
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width:500px ;
+    top: 95px;
+}
+
+/* Fin de banner */
+
+/* Inicio Servicios */
+
+.title_servicio{
+    text-align: center;
+    display: block;
+    margin-top: 190px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.flex_servicio{
+    margin: 10px;
+    margin: auto;
+    padding: .5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Contenedor_card{
+
+    width: 292px;
+    position: relative;
+    height: 307px;
+    margin: .5em;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.aa{
+    background-image: url(/img/Atracción\ de\ Talento.jpg);
+
+}
+
+.bb{
+    background-image: url(/img/TAAS\ \(Talent\ As\ A\ Services\).jpg);
+
+
+}
+
+.cc{
+    background-image: url(/img/DAAS\ \(Dasboards\ As\ A\ Service\).jpg);
+
+
+}
+
+.info_card{
+    position: relative;
+    top: 238px;
+    width: 292px;
+    height:70px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: white;
+    
+}
+.title_serv{
+    position: absolute;
+    bottom: 0;
+    color: #1A222A;
+    bottom: 20px;
+    left: 10px;
+    font-size: 15px;
+    
+}
+
+.servi{
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    color: #F59C00;
+    font-size: 23px;
+}
+
+/* Fin de servicios */
+
+/* Inicio de Método comprobado */
+
+.metodo{
+    width: 100%;
+    position: relative;
+}
+
+.contenedor_metodo_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.title_metodo{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.metodo_text{
+    position: relative;
+    width: 250px;
+    margin: auto;
+    height: 125px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.img{
+    width: 300px;
+}
+
+.Tex_final_metodo{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 125px;
+    padding: 50px;
+    margin-bottom: 100px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Fin de Método */
+
+/* Inicio Diferente */
+
+.Title_diferente{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.tex_diferente{
+    position: relative;
+    width: 300px;
+    margin: auto;
+    height: 125px;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.contenedor_diferente_flex{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.dif{
+    font-size: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+   
+}
+
+.icon-Empleados{
+    color: #FFCE00;
+}
+
+.icon-customer{
+    color: #5DC2D5;
+}
+
+.icon-ux{
+    color: #E74710;
+}
+
+.human_centric{
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+/* Fin diferente */
+
+/* Inicio clientes */
+
+
+
+.exito{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contenedor_exito_flex{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    margin-bottom: -200px;
+    background-color: #F8F8F8;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.clientes_exitos-co{
+  
+    width: 266px;
+    height: 81px;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    padding-left: 10px;
+    margin-right: 10px;  
+}
+
+.clientes_exitos-so{
+    
+    width: 264px;
+    height: 89px;
+    align-items: center;
+    margin-bottom: 20px;
+  
+    padding-left: 10px;
+    margin-right: 10px;   
+
+}
+
+.clientes_exitos-ic{
+    width: 302px;
+    height: 141px;
+    align-items: center;
+   
+   padding-left: 10px;
+    margin-right: 10px;  
+}
+
+
+/* Fin de Exito */
+
+/* Inicio de Nuestra Historia */
+
+.video_nuestra_historia{
+    display: block;
+}
+.title_video_historia{
+    text-align: center;
+    display: block;
+    margin-top: 220px;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.contenedor_video{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    max-width: 900px;
+}
+
+.video{
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+
+}
+
+.video iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/* Fin de Nuestra Historia */
+
+/* Inicio de Equipo de trabajo */
+
+.title_equipo{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.equipo_trabajo{
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+.flex_contenedor_equipo{
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex_item_equipo{
+    box-shadow: 0px 3px 6px #00000029;
+    position: relative;
+    width: 242px;
+    height: 314px;
+    margin: 20px;
+    
+    
+}
+
+.mc{
+    background-image: url(/img/Foto\ Marcelo\ Equipo.jpg);
+    background-size: 250px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.gz{
+    background-image: url(/img/Foto\ Gonzalo\ Equipo.jpg);
+    background-size: 245px;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    
+
+}
+
+.xv{
+    background-image: url(/img/Foto\ xime\ equipo.jpg);
+    background-size: 250px;
+    background-position:top;
+    background-repeat: no-repeat;
+
+}
+
+.gl{
+    background-image: url(/img/Foto\ gustavo\ equipo.jpg);
+    background-size: 250px;
+    background-position:top;
+    background-repeat: no-repeat;
+
+}
+
+.mgl{
+    background-image: url(/img/Foto\ Miguel\ Equipo.jpg);
+    background-size: 250px;
+    background-position:top;
+    background-repeat: no-repeat;
+
+
+}
+
+.wl{
+    background-image: url(/img/Foto\ will\ equipo.jpg);
+    background-size: 250px;
+    background-position:top;
+    background-repeat: no-repeat;
+
+}
+
+.info_card_lk{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+
+}
+
+.title_Nombre{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.cargo{
+    color: #F59C00;
+    text-align: center;
+    margin-top: 2px;
+
+}
+
+.icon-linkedin{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 20px;
+    color:#F59C00 ;
+}
+
+.descripcion_equipo{
+    display: none;
+}
+
+/* Fin de Nuestro Equipo */
+
+/* Inicio de Formulario */
+
+h3{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cajetilla{
+    position: relative;
+    margin: auto;
+    width: 317px;
+    height: 420px;
+   
+    border: 2px solid #F59C00;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+form{
+    position: relative;
+    margin: auto;
+    top: 35px;
+    height: 340px;
+    width: 280px;
+    
+    
+}
+
+.name{
+    position: absolute;
+    
+    width: 280px;
+    border: 2px solid #F59C00 ;
+  
+    border-radius: 5px;
+}
+
+.email{
+    position: absolute;
+    
+    top: 40px ;
+    width: 280px;
+    
+    border: 2px solid #F59C00 ;
+    border-radius: 5px;
+
+}
+
+.select{
+    position: absolute;
+    width: 280px;
+
+   
+    top:80px ;
+    border: 2px solid #F59C00 ;
+    border-radius: 5px;
+
+}
+
+textarea{
+    position: absolute;
+    top:130px ;
+    width: 275px ;
+    border: 2px solid #F59C00 ;
+    border-radius: 8px;
+
+}
+
+.boton{
+    position: absolute;
+    top:330px ;
+    left: 85px;
+    background-color:#F59C00 ;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.foot{
+    width: 100%;
+}
+
+.pie_pagina{
+ 
+    width: 100%;
+    height: 450px;
+    position: relative;
+    margin: auto;
+}
+
+.img_fot{
+    width: 280px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.contenedor_RRSS{
+    display: block;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin: auto;
+    position: relative;
+
+}
+
+.icon-facebook{
+    font-size: 30px;
+    padding: 10px;
+    color: #E74710;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+
+}
+
+.icon-instagram{
+    color: #E74710;
+    padding: 10px;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+
+}
+
+.icon-linkedin2{
+    color: #E74710;
+    padding: 10px;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+
+}
+
+.icon-gmail{
+    color: #E74710;
+    padding: 10px;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    
+}
+
+.text-foot{
+    display: block;
+    width: 250px;
+    margin: auto;
+    position: relative;
+
+}
+
+.foot{
+    text-align: center;
+    padding: 5px;
+   
+}
+
+.servides{
+    display: none;
+}
+
+
+
+
+@media screen and (min-width:680px){
+
+   
+
+    /* Inicio Header y Banner */
+
+    header{
+        position: fixed;
+        width: 100%;
+        height: 130px;
+        top: 0;
+        z-index: 10;
+        background-color: #1A222A;
+       
+    }
+
+
+    .banner{
+        width: 100%;
+        height: 500px;
+        margin-top: -70px;
+        position: relative;
+        background-image: url("/img/Conecta\ con\ los\ mejores\ profesionales.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        font-size: 35px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        max-width:500px ;
+        margin: auto;
+        top: 200px;
+    }
+
+    .logo_puente{
+        height: 100px;
+        display:block;
+        margin-left: initial;
+        padding-left: 25px;
+        padding-top: 20px;
+        margin-top: 8px;
+        
+    }
+    
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    
+    }
+    
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -50px;
+        margin-left: 150px ;
+        text-decoration: none;
+        justify-content: space-between;
+        list-style: none;
+    
+    }
+    
+    .menu_item_link{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        transition: color .3s ease;  
+    }
+
+    .menu_item_link:hover{
+        color: #F59C00;
+    }
+
+
+
+ /* Fin Header y Banner */
+    
+/* Inicio metodo */
+
+.metodo_text{
+    position: relative;
+    width: 400px;
+    margin: auto;
+    height: 125px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.Tex_final_metodo{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 125px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* fin metodo */
+
+.dif{
+    font-size: 150px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+   
+}
+.human_centric{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+
+/* Inicio clientes */
+
+
+
+.contenedor_exito_flex{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-bottom: -200px;
+    background-color: #F8F8F8;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.clientes_exitos-co{
+  
+    width: 266px;
+    height: 81px;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 35px;
+    padding-left: 0;
+    margin-right: 0;
+    filter: saturate(0);
+    transition: all .3s ease; 
+}
+
+.clientes_exitos-co:hover{
+    filter: saturate();
+}
+
+.clientes_exitos-so{
+    
+    width: 264px;
+    height: 89px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding-left: 0;
+    margin-right: 0;
+    filter: saturate(0);
+    transition: all .3s ease;  
+
+}
+.clientes_exitos-so:hover{
+    filter: saturate();
+}
+
+.clientes_exitos-ic{
+    width: 302px;
+    height: 141px;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 0;
+    margin-right: 0;
+    filter: saturate(0);
+    transition: all .3s ease;
+
+}
+.clientes_exitos-ic:hover{
+    filter: saturate();
+}
+
+
+/* Fin de Exito */
+
+}
+
+
+
+@media screen and (min-width:1024px){
+
+
+
+    .contenedor_exito_flex{
+        display: flex;
+        width: 100%;
+        height: 150px;
+        margin-bottom: -200px;
+        background-color: #F8F8F8;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    /* servicio */
+
+
+    
+
+    .info_card{
+        position: relative;
+        top: 238px;
+        width: 292px;
+        height:70px;
+        margin-bottom: 20px;
+        box-shadow: 0px 3px 6px #00000029;
+        background-color: white;
+        transition: all .3s ease;
+        
+    }
+    
+    .info_card:hover{
+        height: 180px;
+        top: 127px;
+    
+    }
+
+    .servides{
+        position: absolute;
+        display: block;
+        color: #1A222A;
+        opacity: 0%;
+        font-size: 10px;
+        bottom: 0px;
+        padding-bottom: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+        transition: all .2s ease ;
+    }
+    
+    .servides:hover{
+        opacity: 100%;
+    
+    }
+
+    /* equipo */
+
+
+
+
+    .icon-linkedin{
+        font-size:30px ;
+    }
+
+
+    header{
+        position: fixed;
+        width: 100%;
+        height: 130px;
+        top: 0;
+        z-index: 10;
+        background-color: #1A222A;
+    }
+
+
+    .banner{
+        width: 100%;
+        height: 700px;
+        margin-top: -70px;
+        position: relative;
+        background-image: url("/img/Conecta\ con\ los\ mejores\ profesionales.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        font-size: 35px;
+        text-align: center;
+        position: relative;
+        margin: auto;
+        width: 100%;
+        max-width:1000px ;
+        top: 300px;
+    }
+
+    .logo_puente{
+        height: 110px;
+        display:block;
+        margin-left: initial;
+        padding-left: 45px;
+        padding-top: 20px;
+        margin-top: 8px;
+        
+    }
+    
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    
+    }
+    
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -50px;
+        margin-left: 150px ;
+        text-decoration: none;
+        justify-content: space-between;
+        list-style: none;
+    
+    }
+    
+    .menu_item_link{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        transition: color .3s ease;  
+    }
+
+    .menu_item_link:hover{
+        color: #F59C00;
+    }
+
+    /* equipo */
+
+    .flex_item_equipo{
+        transition: all .5s ease;
+    }
+
+    .flex_item_equipo:hover{
+        box-shadow: 15px 15px 15px #00000029;
+
+    }
+    .icon-linkedin{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 20px;
+        color:#F59C00 ;
+    }
+    
+
+    /* equipo */
+
+
+
+
+ /* Fin Header y Banner */
+
+
+    /* Inicio de Método comprobado */
+
+.metodo{
+    width: 100%;
+    position: relative;
+}
+
+.contenedor_metodo_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.title_metodo{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.metodo_text{
+    position: relative;
+    width: 450px;
+    margin: auto;
+    height: 125px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.img{
+    display: none;
+    width: 300px;
+}
+
+.met_escritorio{
+    
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.escr{
+    width: 1000px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+
+
+
+
+
+
+/* Fin de Método */
+
+
+}
+
+
+@media screen and (min-width:1400px){
+  
+    .banner{
+        width: 100%;
+        height: 900px;
+        background-position: center;
+        margin-top: -70px;
+        position: relative;
+        background-image: url("/img/Conecta\ con\ los\ mejores\ profesionales.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        margin: auto;
+        top: 370px;
+    }
+
+
+    /* Inicio Servicios */
+
+    
+
+
+.flex_servicio{
+    margin: 10px;
+    margin: auto;
+    padding: .5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Contenedor_card{
+
+    width: 292px;
+    position: relative;
+    height: 307px;
+    margin: .5em;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.aa{
+    background-image: url(/img/Atracción\ de\ Talento.jpg);
+
+}
+
+.bb{
+    background-image: url(/img/TAAS\ \(Talent\ As\ A\ Services\).jpg);
+
+
+}
+
+.cc{
+    background-image: url(/img/DAAS\ \(Dasboards\ As\ A\ Service\).jpg);
+
+
+}
+
+.info_card{
+    position: relative;
+    top: 238px;
+    width: 292px;
+    height:70px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: white;
+    transition: all .3s ease;
+    
+}
+
+.info_card:hover{
+    height: 180px;
+    top: 127px;
+
+}
+
+.servides{
+    position: absolute;
+    display: block;
+    color: #1A222A;
+    opacity: 0%;
+    font-size: 10px;
+    bottom: 0px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all .2s ease ;
+}
+
+.servides:hover{
+    opacity: 100%;
+
+}
+
+
+.title_serv{
+    position: absolute;
+    bottom: 0;
+    color: #1A222A;
+    bottom: 20px;
+    left: 10px;
+    
+}
+
+.servi{
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    color: #F59C00;
+    font-size: 30px;
+}
+
+/* Fin de servicios */
+
+    .escr{
+        width: 1300px;
+        display: block;
+        margin: auto;
+        position: relative;
+    }
+
+    .flex_item_equipo{
+       
+        transition: all .5s ease;
+      
+    }
+
+    .flex_item_equipo:hover{
+        box-shadow: 15px 15px 15px #00000029;
+
+    }
+
+    .icon-linkedin{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 20px;
+        color:#F59C00 ;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .flex-container{
+    margin: 10px;
+    background-color: tomato;
+    max-width: 100%;
+    margin: auto;
+
+    padding: .5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+
+.flex-item{
+    width: 292px;
+    height: 307px;
+    margin: .5em;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Position: static / relative / absolute / fixed / sticky 
+
+Propiedades offset
+    mueven un elemento posicionado según el borde indicado
+    *top
+    *right
+    *bottom
+    *left
+
+
+*Position Relative
+    Su referencia es su posición inicial
+    Aplicar position relative a un elemento 
+    no modifica en nada su layout 
+    Al moverlo, con las propiedades offset, reserva su espacio.
+
+*/
+
+
+/* 
+
+Position: Abosulute
+
+    *Pierde su posición en el flujo y no reserva su espacio
+    *Si tenía dimensiones fijas se mantienen, si tenían dimensiones 
+    automáticas se ajustarán a su contenido.
+    *La referencia es su ancestro posicionado más cercano.
+
+*/
+
+/* fixed (No se mueve con el scroll: Fijo, relativo al viewport
+    *sus dimensiones automáticas es con ralación al contenido 
+    *pero respeta las dimensiones dadas por el programador
+
+
+*/
+
