@@ -195,7 +195,7 @@ h1{
     position: absolute;
     bottom: 30px;
     right: 10px;
-    color: #F59C00;
+    color: #4CC2F1;
     font-size: 23px;
 }
 .enlace_servicios{
@@ -234,7 +234,6 @@ h1{
 /* Inicio Diferente */
 .Title_diferente{
     text-align: center;
-    margin-top: 70px;
     font-size: 30px;
     margin-bottom: 80px;
 }
@@ -283,12 +282,24 @@ h1{
     margin-top: 20px;
     margin-bottom: 50px;
 }
+.strech{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.triple{
+    position: relative;
+    margin: auto;
+    width: 120px;
+}
 /* Fin diferente */
 /* Inicio clientes */
 .casos_exitos{
     position: relative;
     margin: auto;
     width: 100%;
+    margin-bottom: 2400px;
     max-width: 1200px;
 }
 .exito{
@@ -305,7 +316,7 @@ h1{
     margin-bottom: -200px;
     position: relative;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 .clientes_contenedor{
     position: relative;
@@ -351,6 +362,7 @@ h1{
 }
 .equipo_trabajo{
     width: 100%;
+    position: relative;
     background-color: #F8F8F8;
 }
 .flex_contenedor_equipo{
@@ -418,7 +430,7 @@ h1{
     margin-top: 5px;
 }
 .cargo{
-    color: #F59C00;
+    color: #2C2E79;
     text-align: center;
     margin-top: 2px;
 }
@@ -427,7 +439,7 @@ h1{
     bottom: 10px;
     left: 10px;
     font-size: 20px;
-    color:#F59C00 ;
+    color: #2C2E79;
 }
 .aparecer-equipo{
     width: 100%;
@@ -463,7 +475,7 @@ h3{
     margin: auto;
     width: 317px;
     height: 450px;
-    border: 2px solid #F59C00;
+    border: 2px solid #2C2E79;
     border-radius: 15px;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -501,13 +513,13 @@ h3{
 .icon-facebook{
     font-size: 30px;
     padding: 10px;
-    color: #E74710;
+    color: #2C2E79;
     display: inline-block;
     text-align: center;
     position: relative;
 }
 .icon-instagram{
-    color: #E74710;
+    color: #2C2E79;
     padding: 10px;
     font-size: 30px;
     display: inline-block;
@@ -515,7 +527,7 @@ h3{
     position: relative;
 }
 .icon-linkedin2{
-    color: #E74710;
+    color: #2C2E79;
     padding: 10px;
     font-size: 30px;
     display: inline-block;
@@ -523,7 +535,7 @@ h3{
     position: relative;
 }
 .icon-gmail{
-    color: #E74710;
+    color: #2C2E79;
     padding: 10px;
     font-size: 30px;
     display: inline-block;
@@ -541,6 +553,9 @@ h3{
     padding: 5px;
 }
 @media screen and (min-width:450px){
+    .casos_exitos{
+        margin-bottom: 1100px;
+    }
     .title_equipo{
         text-align: center;
         display: block;
@@ -551,6 +566,9 @@ h3{
 }
 @media screen and (min-width:680px){
     /* Inicio Header y Banner */
+    .casos_exitos{
+        margin-bottom: 900px;
+    }
     header{
         position: fixed;
         width: 100%;
@@ -606,7 +624,7 @@ h3{
         transition: color .3s ease;  
     }
     .menu_item_link:hover{
-        color: #F59C00;
+        color: #4CC2F1;
     }
 /* Fin Header y Banner */  
 /* Inicio metodo */
@@ -649,7 +667,7 @@ h3{
     margin-bottom: -200px;
     position: relative;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 .clientes_exitos-co{
     width: 266px;
@@ -695,6 +713,9 @@ h3{
 /* Fin de Exito */
 }
 @media screen and (min-width:1024px){
+    .casos_exitos{
+        margin-bottom: 1200px;
+    }
     .contenedor_exito_flex{
         display: flex;
         width: 100%;
@@ -704,7 +725,7 @@ h3{
         position: relative;
         margin: auto;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
     }
     /* servicio */
     .aparecer{
@@ -795,7 +816,7 @@ h3{
         transition: color .3s ease;  
     }
     .menu_item_link:hover{
-        color: #F59C00;
+        color: #4CC2F1;
     }
     /* equipo */
     .flex_item_equipo{
@@ -864,6 +885,9 @@ h3{
     .contenedor_exito_flex{
         max-width: 1300px;
     }
+    .casos_exitos{
+        margin-bottom: 650px;
+    }
     .title_equipo{
         text-align: center;
         display: block;
@@ -928,7 +952,7 @@ h3{
         bottom: 10px;
         left: 10px;
         font-size: 20px;
-        color:#F59C00 ;
+        color:#2C2E79 ;
     }
     .aparecer{
         width: 100%;
