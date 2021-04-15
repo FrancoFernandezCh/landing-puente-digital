@@ -85,6 +85,24 @@ h1{
     top: 95px;
 }
 /* Fin de banner */
+/* Inicio de propósito */
+.proposito{
+    width: 100%;
+    position: relative;
+    top: 260px;
+    margin-bottom: 350px;
+}
+
+.cointainer__text__proposito{
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+.text__proposito{
+    text-align: center;
+    font-size: 20px;
+}
+/* Fin de propósito */
 /* Inicio Servicios */
 .title_servicio{
     text-align: center;
